@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCentercode } from "react-icons/fa";
+
 
 function Latest({ movies }) {
   let date = movies.release_date;
@@ -50,7 +50,7 @@ function Latest({ movies }) {
                   <button  className="hover:text-black font-bold  flex justify-center items-center gap-2 bg-purple-400 rounded-md px-6 py-2   relative text-white">
                     Visit
                     <span>
-                      <FaCentercode />
+                     <FontAwesomeIcon icon="fa-brands fa-youtube" />
                     </span>
                   </button>
                 </div>
