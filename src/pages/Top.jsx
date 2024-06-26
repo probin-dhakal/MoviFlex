@@ -20,7 +20,7 @@ function Top({ movies }) {
             return (
               <div
                 key={Math.random()}
-                className="w-[350px] md:w-[300px]  object-h-[600px] border-2 border-gray-300 rounded-lg shadow-2xl m-2 mb-[100px]  flex items-center flex-col  bg-purple-500"
+                className="w-[300px] md:w-[300px]  object-h-[600px] border-2 border-gray-300 rounded-lg shadow-2xl m-2 mb-[100px]  flex items-center flex-col  bg-purple-500"
               >
                 <img
                   src={`https://image.tmdb.org/t/p/w500${
