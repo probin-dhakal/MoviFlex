@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCentercode } from "react-icons/fa";
+
 
 function Top({ movies }) {
   let date = movies.release_date;
