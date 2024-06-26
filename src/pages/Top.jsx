@@ -47,9 +47,7 @@ function Top({ movies }) {
                 </div>
                 <button className="hover:text-black font-bold  flex justify-center items-center gap-2 bg-purple-400 rounded-md px-6 py-2   relative text-white">
                   Visit
-                  <span>
-                   <FontAwesomeIcon icon="fa-brands fa-youtube" />
-                  </span>
+                  <span>🎥</span>
                 </button>
               </div>
             );
