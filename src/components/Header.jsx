@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BiCameraMovie } from "react-icons/bi";
+
 import { Link } from "react-router-dom";
 
 
@@ -20,7 +20,7 @@ function Header() {
       <div className="container mx-auto flex items-center justify-between mt-2">
         <div className="text-purple-600 flex gap-2 justify-center items-center font-bold text-5xl">
           <span className="text-red-500">
-            <BiCameraMovie className="" />
+            <FontAwesomeIcon icon="fa-solid fa-video" />
           </span>
         </div>
 
